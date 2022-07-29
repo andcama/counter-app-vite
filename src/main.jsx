@@ -6,6 +6,6 @@ import styles from './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title="Hola,Soy Vegeta" />
+        <CounterApp  value={10}/>
     </React.StrictMode>
 )
